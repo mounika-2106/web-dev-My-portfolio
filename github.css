@@ -1,0 +1,71 @@
+.github-mail-icon {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  background: #111;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+}
+
+.github-mail-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+
+.github-mail-icon:hover {
+  background: rgb(134, 20, 134); 
+  transform: translateY(-3px);
+}
+.linkedin-icon {
+  display: inline-flex;
+  width: 46px;
+  height: 46px;
+  background: #111;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.linkedin-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+
+.linkedin-icon:hover {
+  background: #0a66c2; 
+  transform: translateY(-3px);
+}
+
+.dribbble-icon {
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  background: #111;            
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.dribbble-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;                   
+}
+
+.dribbble-icon:hover {
+  transform: translateY(-3px);
+  background-color: rgb(21, 172, 21);
+}
